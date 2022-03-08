@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lbl_int" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_wpmp" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_da" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_pe" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_wcc" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tf_pe" pref="42" max="32767" attributes="0"/>
+                                  <Component id="tf_wpmp" max="32767" attributes="0"/>
+                                  <Component id="tf_da" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="tf_wcc" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lbl_f" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_etc" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_eff" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tf_etc" max="32767" attributes="0"/>
+                                  <Component id="tf_f" max="32767" attributes="0"/>
+                                  <Component id="tf_eff" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="lbl_lara" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_lb" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_fr" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="tf_lara" pref="53" max="32767" attributes="0"/>
+                                          <Component id="tf_lb" max="32767" attributes="0"/>
+                                          <Component id="tf_fr" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="114" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="btn_cal" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Component id="btn_lim" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="rbt_si" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbt_no" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_des" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      <Component id="btn_sig" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="btn_atr" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+                      <Component id="lbl_tit" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Component id="lbl_tit" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lbl_int" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_wcc" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tf_wcc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tf_wpmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_wpmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tf_da" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_da" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tf_pe" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_pe" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tf_f" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_f" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tf_etc" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_etc" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tf_eff" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_eff" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn_cal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn_lim" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_lara" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tf_lara" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tf_lb" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_lb" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tf_fr" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_fr" min="-2" pref="14" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lbl_des" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="48" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="rbt_si" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="rbt_no" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_sig" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_atr" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_etc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ETc (mm/dia)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_etc">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_f">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_f">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F (%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_pe">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pe (mm)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_pe">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_da">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_da">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Da (gr/cc)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_wpmp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wpmp (%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_wpmp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_wcc">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_wcc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wcc (%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_int">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Introducir los datos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_tit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RIEGO POR ASPERSION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_lara">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LARA (mm) ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_lara">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_lb">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_lb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lb (mm) ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_fr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fr (dia) ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_fr">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_des">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desea aproximar Fr al valor mas cercano y recalcular"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbt_si">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Si"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbt_siActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbt_no">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="buttonGroup1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_cal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_calActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_lim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_limActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_sig">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Siguiente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_sigActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_atr">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atras"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_atrActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_eff">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Eff (%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_eff">
+    </Component>
+  </SubComponents>
+</Form>
