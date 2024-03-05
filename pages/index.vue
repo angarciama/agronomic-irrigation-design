@@ -2,8 +2,8 @@
   <div>
     <h1>Diseño Agronomico de Riego</h1>
     <ButtonNavigate route="back" buttonText="Volver" />
-    <ButtonNavigate route="back" buttonText="Aspersion" />
-    <ButtonNavigate route="back" buttonText="Salir" />
+    <ButtonNavigate route="aspersion" buttonText="Aspersion" />
+    <ButtonNavigate route="drip-or-microspray" buttonText="Goteo o Microaspersion" />
   </div>
 </template>
 
