@@ -56,10 +56,10 @@ const eff = ref(null)
 
 <style scoped>
 .form-container {
-  max-width: 400px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 fieldset {
   display: flex;
@@ -74,7 +74,7 @@ label {
 input {
   border: 1px solid black;
   border-radius: 10px;
-  height: 50px;
+  height: 20px;
   background-color: white;
   color: black;
   font-weight: bold;
