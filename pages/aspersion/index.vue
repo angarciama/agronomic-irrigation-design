@@ -37,13 +37,14 @@
         <input id="eff" v-model="eff" type="number" min="0" max="100" step="0.01" required>
       </fieldset>
     </div>
+    <p v-if="lara !== null">El valor de LARA es: {{ lara }}</p>
     <ButtonNavigate route="back" buttonText="Volver" />
   </div>
 </template>
 
 <script setup lang="ts">
 import ButtonNavigate from "~/components/buttons/ButtonNavigate.vue";
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const wcc = ref(null)
 const wpmp = ref(null)
@@ -52,6 +53,14 @@ const pe = ref(null)
 const f = ref(null)
 const etc = ref(null)
 const eff = ref(null)
+
+const lara = computed(() => {
+  if (wcc.value !== null && wpmp.value !== null && da.value !== null && pe.value !== null && f.value !== null) {
+    return ((wcc.value - wpmp.value) * da.value * pe.value * f.value).toFixed(2)
+  } else {
+    return null
+  }
+})
 </script>
 
 <style scoped>
