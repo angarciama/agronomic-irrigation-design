@@ -37,7 +37,8 @@
         <input id="eff" v-model="eff" type="number" min="0" max="100" step="0.01" required>
       </fieldset>
     </div>
-    <p v-if="lara !== null">El valor de LARA es: {{ lara }}</p>
+    <p v-if="lara !== null">El valor de LARA es: {{ lara }} mm</p>
+    <p v-if="lb !== null">El valor de Lb es: {{ lb }} mm</p>
     <ButtonNavigate route="back" buttonText="Volver" />
   </div>
 </template>
@@ -57,6 +58,14 @@ const eff = ref(null)
 const lara = computed(() => {
   if (wcc.value !== null && wpmp.value !== null && da.value !== null && pe.value !== null && f.value !== null) {
     return ((wcc.value - wpmp.value) * da.value * pe.value * f.value).toFixed(2)
+  } else {
+    return null
+  }
+})
+
+const lb = computed(() => {
+  if (lara.value !== null && eff.value !== null && !isNaN(eff.value) && eff.value !== 0) {
+    return (parseFloat(lara.value) / parseFloat(eff.value)).toFixed(2)
   } else {
     return null
   }
